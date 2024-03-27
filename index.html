@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="js/js.js">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Abouts">Abouts</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container"> 
+        <section class="perfil">
+            <picture>
+                <img src="img/fot.png" alt="perfil">
+            </picture>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+
+            <article  class="artigo artigo-1">
+                <a href="https://github.com/nicolemos56/projetoFrontendFusion1.git"></a><img src="img/fusion.png" alt="fot1"></a>
+                <h2>FrontendFusion</h2>
+                <p>É um projeto colaborativo que visa fornecer uma oportunidade para programadores contribuirem em um projeto real de desenvolvimento de frontend. 
+                   </p>
+                    <a href="#"><button class="button btn-1">Abrir projecto</button></a>
+                    
+                    <a href="https://github.com/nicolemos56/projetoFrontendFusion1.git"><button class="button btn-2">Repositorio</button></a>
+            </article>
+            
+            <article  class="artigo artigo-2">
+                <a href="http://nicolemosmusic.infinityfreeapp.com/?i=2"></a><img src="img/moneypro.png" alt="fot2"></a>
+                <h2>MoneyProMusic</h2>
+                <p>O Blog Musical Angola é uma plataforma de música dedicada à promoção e divulgação de
+                     novos talentos musicais de Angola.
+                </p>
+              <a href="http://nicolemosmusic.infinityfreeapp.com/?i=2"><button class="button btn-1">Abrir projecto</button></a>
+               <a href="https://github.com/dashboard"><button class="button btn-2">Repositorio</button></a>
+            </article>
+
+            <article  class="artigo artigo-3">
+                <a href="https://github.com/nicolemos56/whatsapp-api-nodejs.git"><img src="img/baf8ac55-nova-imagem-do-whatsapp-b.png" alt="fot3"></a>
+                <h2>WhatsApp-API</h2>
+                <p>É uma API do WhatsApp na qual tenho colaborado, implementando e aprimorando novas funcionalidades para enriquecer a experiência do usuário.
+                </p>
+               
+                <a href=""><button class="button btn-1">Abrir projecto</button></a>
+                <a href="https://github.com/nicolemos56/whatsapp-api-nodejs.git"> <button class="button btn-2">Repositorio</button></a>
+            </article>
+
+            <article  class="artigo artigo-4">
+                <a href="https://github.com/dashboard"></a><img src="img/ardour.webp" alt="fot4"></a>
+                <h2>AgendaStudio</h2>
+                <p>É um Software Desktop avançado e intuitivo, criado para otimizar o agendamento e gestão de produção musical, oferecendo uma solução eficiente e prática para profissionais da indústria musical.
+                </p>
+               <a href=""> <button class="button btn-1">Abrir projecto</button></a>
+                <a href="https://github.com/dashboard"> <button class="button btn-2">Repositorio</button></a>
+            </article>
+        </section>
+
+        
+    </main>
+    <section id="Abouts" class="Abouts">  
+        <h1>Abouts me</h1>
+      <span></span>
+     
+      <artigo class="skills skills-1">Olá, eu sou Manuel João Miguel de Deus, um engenheiro informático apaixonado por tecnologia. Durante minha jornada acadêmica, mergulhei no mundo da programação, dominando tanto o desenvolvimento desktop quanto web, com destaque para C# no ambiente desktop. Atualmente, estou focado em me tornar um desenvolvedor fullstack, aprimorando minhas habilidades em HTML, CSS, JS e PHP, e explorando tecnologias como Node.js e MongoDB. Além disso, minha curiosidade e entusiasmo me levaram a explorar áreas como sistemas embarcados, pentest e até mesmo ERP SAP. Estou sempre em busca de novos desafios e oportunidades para expandir meu conhecimento e habilidades no universo da tecnologia.</artigo>
+  </section>
+    <section id="Skills" class="skills">  
+          <h1>Skills</h1>
+        <span></span>
+        <artigo class="skills skills-1">
+            <img src="img/html.svg" alt="">
+            <h2>Html</h2>
+            
+        </artigo>
+        
+        <artigo class="skills skills-1">
+            <img src="img/css-file.svg" alt="">
+            <h2>Css</h2>
+            
+        </artigo>
+
+        <artigo class="skills skills-1">
+            <img src="img/Javascript-shield.svg" alt="">
+            <h2>JavaScript</h2>
+            
+        </artigo>
+        <artigo class="skills skills-1">
+            <img src="img/csharp.svg" alt="">
+            <h2>C#</h2>
+            
+        </artigo>
+        <artigo class="skills skills-1">
+            <img src="img/new-php-logo.svg" alt="">
+            <h2>Php</h2>
+            
+        </artigo>
+
+        <artigo class="skills skills-1">
+            <img src="img/2560px-Node.js_logo.svg.png" alt="">
+            <h2>Nodejs</h2>
+            
+        </artigo>
+        <artigo class="skills skills-1">
+            <img src="img/mysql.svg" alt="">
+            <h2>MySql</h2>
+            
+        </artigo>
+        <artigo class="skills skills-1">
+            <img src="img/microsoft-sql-server-logo.svg" alt="">
+            <h2>SqlServer</h2>
+            
+        </artigo>
+    </section>
+
+<script>
+   const imgs = document.querySelectorAll('.artigo img')
+ 
+imgs.forEach((imagemSelecionada)=>{
+       imagemSelecionada.addEventListener("mouseenter", function(){
+      
+            imagemSelecionada.classList.add("boxShadow")
+       
+       },
+       
+       )
+       
+       imagemSelecionada.addEventListener("mouseleave",function(){
+        imagemSelecionada.classList.remove("boxShadow")
+       })
+})
+  
+
+   
+</script>   
+    <section id="Contact">
+        <footer>
+        <div class="autor">
+            <ul  class="contactos">
+                <li><a href="linkedin.com/in/manuel-de-deus-694956199"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/nicolemos56"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="nicocohen56@gmail.com"><i class="fa-solid fa-at"></i></a></li>
+                <li><a href="https://www.instagram.com/nico_lemos56/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            <p>Copyright © 2022 D'Deus'Dev-Todos direitos reservados</p>
+            
+        </div>
+      
+    </footer>
+</section>
+</body>
+</html>
