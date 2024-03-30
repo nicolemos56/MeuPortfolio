@@ -14,9 +14,20 @@
           
             <ul>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#Skills">Skills</a></li>
+                <li class="dropdown">
+                    <a href="#Skills">Skills</a>
+                    <div id="Skills" class="dropdown-content">
+                        <a href="#HardSkills" class="ancora-1">Hard Skills</a>
+                        <a href="#SoftSkills" class="ancora-2">Soft Skills</a>
+                       
+                    </div>
+                </li>
                 <li><a href="#Abouts">Abouts</a></li>
                 <li><a href="#Contact">Contact</a></li>
+                <li><a href="cv/cv-RedespcAnalistaSistema.pdf">Curríclo</a></li>
+                <li class="github">
+                    <a href="https://github.com/nicolemos56"><i class="fa-brands fa-github"></i>Github</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -78,8 +89,8 @@
      
       <artigo class="skills skills-1">Olá, eu sou Manuel João Miguel de Deus, um engenheiro informático apaixonado por tecnologia. Durante minha jornada acadêmica, mergulhei no mundo da programação, dominando tanto o desenvolvimento desktop quanto web, com destaque para C# no ambiente desktop. Atualmente, estou focado em me tornar um desenvolvedor fullstack, aprimorando minhas habilidades em HTML, CSS, JS e PHP, e explorando tecnologias como Node.js e MongoDB. Além disso, minha curiosidade e entusiasmo me levaram a explorar áreas como sistemas embarcados, pentest e até mesmo ERP SAP. Estou sempre em busca de novos desafios e oportunidades para expandir meu conhecimento e habilidades no universo da tecnologia.</artigo>
   </section>
-    <section id="Skills" class="skills">  
-          <h1>Skills</h1>
+    <section id="HardSkills" class="skills">  
+          <h1>Hard-Skills</h1>
         <span></span>
         <artigo class="skills skills-1">
             <img src="img/html.svg" alt="">
@@ -125,6 +136,38 @@
             
         </artigo>
     </section>
+    
+    <section id="SoftSkills" class="skills">  
+        <h1>Soft-Skills</h1>
+      <span></span>
+      <artigo class="skills skills-1">
+          <img src="img/comunicavel.avif" alt="">
+          <h2>Comunicável</h2>
+          
+      </artigo>
+      
+      <artigo class="skills skills-1">
+          <img src="img/office-teamwork-illustration-c0bdf7.svg" alt="">
+          <h2>Tralho em equipe</h2>
+        </artigo>
+
+        <artigo class="skills skills-1">
+            <img src="img/guide-to-repurposing.svg" alt="">
+            <h2>Adaptabilidade</h2>
+        </artigo>
+
+        <artigo class="skills skills-1">
+            <img src="img/pensamento-criativo-sugestao-original-decisao-nao-padronizada-resolucao-de-problemas-homem-com-personagem-de-desenho-animado-de-lampada-grande-desenvolvimento-inovador_335657-2110.avif" alt="">
+            <h2>Resolução de Problema</h2>
+            
+        </artigo>
+
+        <artigo class="skills skills-1">
+            <img src="img/kisspng-computer-icons-scalable-vector-graphics-portable-n-occupation-icons-5-148-free-vector-icons-.svg" alt="">
+            <h2>Pensamento crítico</h2>
+            
+        </artigo>
+  </section>
 
 <script>
    const imgs = document.querySelectorAll('.artigo img')

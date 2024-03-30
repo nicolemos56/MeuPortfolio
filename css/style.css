@@ -18,10 +18,6 @@ header{
         
 }
 
-.navbar{
-   
-}
-
 .navbar > ul{
     line-height: 16px;
     margin: 3px;
@@ -32,19 +28,56 @@ header{
     margin: 15px;
     justify-items: center;
     display: inline-block;
+    position: relative;
+}
+.navbar > ul > .github a{
+color: rgb(43, 9, 145);
+
+}
+.navbar > ul > li:hover .github a{
+    
+   
+    border-bottom: none;
+    
+    }
+.navbar > ul > .github{
+  
+}
+.navbar > ul > .github > .fa-github{
+    margin-right: 3px;
+   
+
+}
+
+.navbar > ul > .dropdown > .dropdown-content{
+    display: none;
+    position: absolute;
+}
+.navbar > ul > .dropdown > .dropdown-content a {
+    display: block;
+    margin-top: 4px;
+    border-bottom: none;
+    font-size: 1.29rem;
+}
+
+.navbar > ul > li:hover a{
+    border-bottom: 2px solid rgba(30, 143, 255, 0.947);
+    
+}
+.navbar > ul > li:hover .dropdown-content{
+    display: block;
 }
 .navbar > ul > li a{
+    display: block;
     text-align: justify;
     font-weight: bold;
     padding: 12px;
     font-size: 18pt;
-    color: #1E90FF;;
-    
+    color: #1E90FF; 
 }
 .container{
     display: flex;
     min-height: calc(100vh - 70px);
-   
 }
  /*section{
     width: 100px;
@@ -81,8 +114,6 @@ header{
 }
 .portfolio > .artigo > button{
     opacity: 1;
-   
-  
 }
 .boxShadow{
 box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);    
@@ -176,6 +207,10 @@ border-radius: 12px;
     min-height: calc(31vh);
     justify-content: center
 }
+.skills img{
+    display: flex;
+    justify-content: center;
+}
 .Abouts > .skills-1{
     display: block;
 }
@@ -243,13 +278,14 @@ footer{
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
    
 }
+
 footer > .autor > .contactos{
     
     display: flex;
     margin: 2px;
     margin-bottom: 80px;
     margin-top: 23px;  
-            
+    text-align: center;
 }
 footer > .autor > .contactos a{
     
