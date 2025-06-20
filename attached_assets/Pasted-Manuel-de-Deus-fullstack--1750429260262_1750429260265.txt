@@ -1,0 +1,107 @@
+Manuel de Deus-fullstack
+
+_________________________________________________________________________________________________________
+HardSkills:💻 Programação & Desenvolvimento
+Linguagens: Python, PHP, JavaScript, C#, Node.js
+
+Frontend: HTML, CSS, JS, SASS
+
+Backend: Node.js com Express.js, PHP com CodeIgniter 4
+
+Bancos de Dados: MySQL, MongoDB, SQL Server
+
+API REST: Consumo e criação de APIs (Postman, Express)
+
+Versionamento: Git/GitHub
+
+Integração com IA: via APIs (ex: Google Cloud Vision)
+
+Ferramentas: Azure DevOps, Postman, Replit
+📊 Análise de Dados & Automação
+Excel avançado (PROCV, PROCH, PROCX, Tabela Dinâmica, Dashboards)
+
+Automação com Excel + IA
+
+Análise de relatórios (via scripts, Excel ou Zabbix)
+
+🌐 Redes e Sistemas
+Certificação CCNA 3 (200-301) pela Cisco
+
+Curso DevNet Associate (DEVASC) (automação de redes, Python, REST, Linux, Cisco)
+
+Conhecimento em protocolos: TCP/IP, DNS, HTTP
+
+Experiência com monitoramento via Zabbix
+
+Sistemas Linux (CLI, shell scripts)
+
+🛠️ Outros
+Assistência técnica com UnlockTool (remoção de iCloud, FRP, IMEI, atualização de sistemas)
+
+Uso de Airtable para sistemas de gestão de estoque
+
+Criação de apps no Excel (entrada, saída, ordem de trabalho, dashboard)
+
+Estruturação de Trello como sistema de produtividade técnica
+
+Softskills:Soft Skills (Competências Comportamentais)
+Proatividade – Você identifica problemas (ex: baixa produtividade da equipe) e propõe soluções práticas.
+
+Gestão de Equipes – Coordenação técnica e uso de Trello para monitorar tarefas dos técnicos regionais.
+
+Resolução de Problemas – Atua diretamente na resolução de falhas de APs e redes.
+
+Comunicação – Produz materiais explicativos (flyers, campanhas) para clientes e técnicos.
+
+Planejamento Estratégico – Exemplo: criação do programa "WiConnect em Ação".
+
+Autodidatismo – Cursos diversos de alto nível (Alura, Cisco, Simplifica Treinamentos, etc).
+
+Trabalho em Equipe – Participou de projetos colaborativos como o FrontendFusion.
+
+Projetos Realizados
+1. Booking (2025) 🆕
+Plataforma de reserva de serviços tipo BlackLane (provavelmente carros executivos).
+
+Publicado via Replit e hospedado com integração ao GitHub.
+
+Inclui interface de agendamento e backend funcional.
+AgendaStudio
+É um Software Desktop avançado e intuitivo, criado para otimizar o agendamento e gestão de produção musical, oferecendo uma solução eficiente e prática para profissionais da indústria musical.(kkk este foi o meu primeiro co-projecto apois ter terminado 2º da faculdade.)
+
+
+2. Alertamente (Alura Imersão IA)
+App educacional com IA que ensina escrita infantil.
+
+Destaque na comunidade Alura.
+
+Uso de Python + Google Cloud Vision API.
+
+3. Sistema de Gestão de Estacionamento (TCC)
+Desenvolvido com PHP, CodeIgniter 4, MySQL, HTML, CSS, JS
+
+Permitia registro, controle e acompanhamento de veículos.
+
+Aplicou metodologia XP (Extreme Programming)
+
+4. Aplicação Excel - Gestão de Estoque
+Criada para sua empresa.
+
+Funcionalidades: entrada/saída de estoque, ordens de trabalho, impressão, controle de SIM cards, técnicos e pontos.
+
+Dashboard interativo + automação com botões.
+
+5. Sistema com Airtable
+Gerenciamento de estoque nacional com formulários de entrada e saída por técnicos em várias províncias.
+
+6. FrontendFusion
+Projeto de equipe para aprimoramento de frontend (HTML, CSS, JS e SASS).
+
+Foco em boas práticas visuais e responsividade.
+
+7. Blog Musical (PHP + MySQL)
+Projeto pessoal para prática de back-end com painel de administração de conteúdo musical.
+
+GitHub: nicolemos56
+Email: nicocohen56@gmail.com
+Linkdin: manuel-de-deus-694956199
