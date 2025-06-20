@@ -59,7 +59,7 @@ Esta mensagem foi enviada através do seu portfólio online.
         console.error("Failed to send email, but message was stored:", message);
         res.json({ 
           success: true, 
-          message: "Mensagem recebida! Houve um problema no envio do email, mas sua mensagem foi salva." 
+          message: "Mensagem recebida e salva! Para ativar o envio de emails, verifique seu email nicocohen56@gmail.com e confirme o remetente no SendGrid." 
         });
       }
     } catch (error) {
