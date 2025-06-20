@@ -19,7 +19,7 @@ export function ProjectsSection() {
       description: "App educacional com IA que ensina escrita infantil. Destaque na comunidade Alura durante a Imersão IA.",
       technologies: ["Python", "Google Cloud Vision", "IA"],
       image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      links: { demo: "#", github: "#" }
+      links: { demo: "https://alertame.netlify.app/", github: "#" }
     },
     {
       title: "Sistema de Gestão de Estacionamento",
@@ -46,7 +46,7 @@ export function ProjectsSection() {
       description: "Projeto colaborativo para aprimoramento de frontend com foco em boas práticas visuais e responsividade.",
       technologies: ["HTML", "CSS", "SASS", "JavaScript"],
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      links: { github: "#" }
+      links: { github: "https://github.com/nicolemos56/projetoFrontendFusion1.git" }
     }
   ];
 
@@ -92,13 +92,23 @@ export function ProjectsSection() {
                 {project.links && (
                   <div className="flex space-x-3">
                     {project.links.demo && (
-                      <Button variant="link" size="sm" className="p-0 h-auto text-accent">
+                      <Button 
+                        variant="link" 
+                        size="sm" 
+                        className="p-0 h-auto text-accent"
+                        onClick={() => window.open(project.links.demo, '_blank')}
+                      >
                         <ExternalLink className="h-4 w-4 mr-1" />
                         Demo
                       </Button>
                     )}
                     {project.links.github && (
-                      <Button variant="link" size="sm" className="p-0 h-auto text-accent">
+                      <Button 
+                        variant="link" 
+                        size="sm" 
+                        className="p-0 h-auto text-accent"
+                        onClick={() => window.open(project.links.github, '_blank')}
+                      >
                         <Github className="h-4 w-4 mr-1" />
                         Código
                       </Button>
