@@ -36,10 +36,11 @@ export function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
     },
     {
-      title: "Sistema com Airtable",
-      description: "Gerenciamento de estoque nacional com formulários de entrada e saída por técnicos em várias províncias.",
-      technologies: ["Airtable", "Formulários", "Gestão"],
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+      title: "Kluva - Blog Musical",
+      description: "Blog musical pessoal para prática de back-end com painel de administração de conteúdo musical. Plataforma completa para compartilhamento de conteúdo musical.",
+      technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      links: { demo: "http://nicolemosmusic.infinityfreeapp.com/?i=1" }
     },
     {
       title: "FrontendFusion",
