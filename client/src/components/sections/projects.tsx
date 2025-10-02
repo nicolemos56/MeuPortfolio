@@ -18,7 +18,7 @@ export function ProjectsSection() {
       badge: { text: "AI", variant: "secondary" as const },
       description: "Aplicação Android em Python que traduz gírias e expressões culturais angolanas para turistas. Usa Kivy para GUI, spaCy para processamento de linguagem natural e pandas para dados.",
       technologies: ["Python", "Kivy", "spaCy", "Pandas", "Android"],
-      image: "/attached_assets/Impacto-de-la-cultura-portada_1759415535576.jpg",
+      image: "https://traducendo.net/wp-content/uploads/2023/05/Impacto-de-la-cultura-portada.jpg",
       links: { github: "https://github.com/nicolemos56/Tradutor-Cultural-com-IA.git" }
     },
     {
