@@ -27,7 +27,7 @@ export function ProjectsSection() {
       description: "Sistema completo para registro, controle e acompanhamento de veículos. Desenvolvido com metodologia XP.",
       technologies: ["PHP", "CodeIgniter 4", "MySQL"],
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      links: { demo: "#", github: "#" }
+      links: { demo: "#", github: "https://github.com/nicolemos56/Gest-o-de-carros-ProjetoTcc.git" }
     },
     {
       title: "Aplicação Excel - Gestão de Estoque",
