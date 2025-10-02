@@ -16,10 +16,10 @@ export function ProjectsSection() {
     {
       title: "Tradutor Cultural com IA",
       badge: { text: "AI", variant: "secondary" as const },
-      description: "App educacional com IA que ensina escrita infantil. Destaque na comunidade Alura durante a Imersão IA.",
-      technologies: ["Python", "Google Cloud Vision", "IA"],
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      links: { demo: "https://alertame.netlify.app/", github: "https://github.com/nicolemos56/Tradutor-Cultural-com-IA.git" }
+      description: "Aplicação Android em Python que traduz gírias e expressões culturais angolanas para turistas. Usa Kivy para GUI, spaCy para processamento de linguagem natural e pandas para dados.",
+      technologies: ["Python", "Kivy", "spaCy", "Pandas", "Android"],
+      image: "/attached_assets/Impacto-de-la-cultura-portada_1759415535576.jpg",
+      links: { github: "https://github.com/nicolemos56/Tradutor-Cultural-com-IA.git" }
     },
     {
       title: "Sistema de Gestão de Estacionamento",
